@@ -1,0 +1,134 @@
+{% extends 'prezentation/head.html' %}\
+{% block content %}
+ {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>РСУ-69</title>
+
+</head>
+</head>
+<head>
+    <style>
+    .header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+    }
+    .header h1 {
+  font-size: 25px;
+}
+@media (max-width: 767px) {
+.header h1 {
+font-size: 22px;
+}
+}
+
+.welcome {
+background-color: #f5f5f5;
+padding: 50px 0;
+}
+
+.welcome h2 {
+font-size: 25px;
+text-align: center;
+margin-bottom: 40px;
+}
+
+.welcome p {
+font-size: 18px;
+text-align: center;
+margin-bottom: 40px;
+}
+
+.services h2 {
+font-size: 25px;
+text-align: center;
+margin-bottom: 40px;
+}
+
+.services .card {
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+border: 1px solid #ddd;
+}
+
+.services .card p {
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+.services .card i {
+font-size: 48px;
+margin-top: 20px;
+margin-bottom: 20px;
+    color: #17a2b8;
+}
+
+
+</style>
+
+</head>
+</style>
+</head>
+<body>
+ <header class="header bg-dark text-white text-center">
+    <div class="container">
+      <h1 class="display-4">ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "РЕМОНТНО-СТРОИТЕЛЬНОЕ УПРАВЛЕНИЕ-69"</h1>
+    </div>
+</header>
+
+<style>
+  @media (max-width: 767px) {
+    .header h1 {
+      font-size: 22px;
+    }
+  }
+</style>
+  <section class="welcome py-5">
+  <div class="container">
+    <h2 class="text-center">Добро пожаловать, мы ремонтно-строительная компания, которая много лет обслуживает клиентов.</h2>
+    <p class="text-center my-4">Наша команда экспертов имеет богатый опыт в предоставлении качественных и эффективных строительных и ремонтных услуг.</p>
+  </div>
+</section>
+
+  <section class="services container mt-5">
+    <h2 class="text-center mb-5">ООО РСУ-69</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+  <div class="card h-100 text-center">
+    <i class="fas fa-hammer fa-4x mb-3"></i>
+    <h3 class="card-title" style="font-family: Arial, sans-serif; font-weight: bold; margin-top: 20px;">О Нас:</h3>
+    <p class="card-text" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5; margin-top: 20px;">Если Вы ищете надежную и профессиональную ремонтно-строительную компанию, то Общество С Ограниченной Ответственностью "Ремонтно-Строительное Управление-69" - это то, что Вам нужно! Мы будем рады служить Вам и помочь решить Вашу задачу!</p>
+  </div>
+</div>
+
+       <div class="col-md-4 mb-4">
+  <div class="card h-100 text-center">
+          <i class="fas fa-building fa-4x mb-3"></i>
+          <h3 class="card-title" style="font-family: Arial, sans-serif; font-weight: bold; margin-top: 20px;">Для Вас:</h3>
+         <p class="card-text" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5; margin-top: 20px;">Мы ценим наших клиентов и понимаем, что для них важно, поэтому мы всегда стараемся делать все возможное, чтобы удовлетворить все их потребности и пожелания.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card h-100 text-center">
+          <i class="fas fa-tractor fa-4x mb-3"></i>
+          <h3 class="card-title" style="font-family: Arial, sans-serif; font-weight: bold; margin-top: 20px;">Наш опыт:</h3>
+          <p class="card-text" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5; margin-top: 20px;">Строительная компания имеет многолетний опыт в строительстве.
+Наши специалисты имеют высокую квалификацию и опыт работы на самых сложных объектах. Мы следуем современным технологиям и стандартам качества, чтобы обеспечить максимальное удовлетворение наших клиентов.
+Приоритетом для нас является соблюдение сроков и бюджета проекта.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+   <br>
+ {% endblock %}
