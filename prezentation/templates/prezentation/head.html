@@ -24,10 +24,13 @@
 </div>
       </div>
     </a>
-     <div style="display: flex; justify-content: space-between;">
-  <a href="{% url 'informaciya' %}" class="btn btn-outline-secondary" style="margin-right: 20px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">Информация</a>
-  <a href="{% url 'contact' %}" class="btn btn-outline-secondary" box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">Контакты</a>
-</div>
+     <div style="display: flex; justify-content: space-between; margin-left: auto;">
+          <a href="{% url 'home' %}" class="btn btn-outline-secondary"
+             style="margin-right: 20px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">Главная</a>
+          <a href="{% url 'informaciya' %}" class="btn btn-outline-secondary"
+             style="margin-right: 20px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">Информация</a>
+          <a href="{% url 'contact' %}" class="btn btn-outline-secondary" box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);">Контакты</a>
+      </div>
   </div>
 </nav>
   </header>
