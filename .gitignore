@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Compiled files
+*.pyo
+*.pyd
+*.pyc
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Debug files
+*.bak
+*.swp
+*.DS_Store
+debug.log
+
+# IDE
+.idea/
+*.iml
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+/static/
+
